@@ -11,7 +11,7 @@ spec:
   source:
     path: 0-bootstrap/single-cluster
     repoURL: https://github.com/ben-hankins/multi-tenancy-gitops.git
-    targetRevision: ${GIT_GITOPS_BRANCH}
+    targetRevision: master
   syncPolicy:
     automated:
       prune: true
